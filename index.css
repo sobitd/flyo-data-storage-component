@@ -8,3 +8,63 @@ body{
     font-family: 'Raleway';
     margin: 10px;
 }
+
+.container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrappper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    flex: 1 1 auto;
+    border-radius: 10px 70px 10px 10px;
+    padding: 30px 120x 30px 30px;
+    margin: 15px;
+    background-color: hsl(229, 57%, 25%);
+}
+
+.header-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
+.logo{
+    margin: 15px;
+}
+
+.icons-wrapper{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 35px 0 0 0;
+}
+
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229,57%,11%);
+    margin: 8px;
+}
+
+main{
+    flex: 1 1 500px;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 50px 10px 10px 10px;
+    background-color: hsl(229, 57%, 25%);
+}
+
+
+
